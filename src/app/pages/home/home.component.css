@@ -1,0 +1,39 @@
+.uno-card{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+ }
+ .etios-card{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+ }
+ .logus-card{
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+ }
+
+ .gol-card{
+    position: absolute;
+    top: 110%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+ }
+
+ .hrv-card{
+    position: absolute;
+    top: 105%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+ }
+
+ .palio-card{
+    position: absolute;
+    top: 98%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+ }

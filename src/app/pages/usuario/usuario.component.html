@@ -1,0 +1,46 @@
+<div class="space-y-10">
+
+
+  <mat-card class="example-card">
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>Crie ou edite seu anúncio</mat-card-title>
+    </mat-card-header>
+    <div class="mt-4 flex text-sm leading-6 text-gray-600">
+      <label for="file-upload" class="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500">
+        <span>  Upload a file</span>
+        <input id="file-upload" name="file-upload" type="file" class="sr-only">
+      </label>
+      <p class="pl-1">or drag and drop</p>
+    </div>
+    <mat-card-content>
+      <p>
+        Clique aqui para criar ou editar seu anúncio.
+      </p>
+    </mat-card-content>
+    <mat-card-actions>
+      <button mat-button routerLink="app-anuncio">CRIAR</button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" routerLink="app-anuncio">
+        <mat-icon>edit</mat-icon>
+      </button>
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon" routerLink="app-anuncio">
+        <mat-icon>info</mat-icon>
+      </button>
+    </mat-card-actions>
+  </mat-card>
+
+  <mat-list>
+    <mat-list-item>
+      <span matListItemTitle>Tá disponível?</span>
+      <span matListItemLine>Valter Aleixo</span>
+    </mat-list-item>
+    <mat-list-item>
+      <span matListItemTitle>Troca num 147?</span>
+      <span matListItemLine>Juan Aleixo</span>
+    </mat-list-item>
+    <mat-list-item>
+      <span matListItemTitle>??</span>
+      <span matListItemLine>Isabela Pinheiro</span>
+    </mat-list-item>
+  </mat-list>
+</div>

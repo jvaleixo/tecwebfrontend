@@ -1,0 +1,40 @@
+.anuncio-card{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+ }
+
+.sg1-card{
+    position: absolute;
+    top: 110%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+ }
+
+ .sg2-card{
+    position: absolute;
+    top: 110%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+ }
+
+ .sg3-card{
+    position: absolute;
+    top: 115%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+ }
+
+ table{
+   position: absolute;
+   left: 1000px;
+   border: 1px solid black;
+ }
+ th, td{
+   border: 1px solid black;
+ }
